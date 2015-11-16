@@ -67,9 +67,9 @@ namespace lab_3
             int R = Convert.ToInt32(radius);
             for (int i = 0; i < count_elements; i++)
             {
-                GeometricArray[i, 0] = R * Math.Sin(i * 9 * Math.PI / 180);
+                GeometricArray[i, 0] =0;
                 GeometricArray[i, 1] = 0;
-                GeometricArray[i, 2] = R * Math.Cos(i * 9 * Math.PI / 180);
+                GeometricArray[i, 2] = R * Math.Cos(i * Math.PI / 20);
             }
             int light = Gl.GL_LIGHT0;
             Gl.glEnable(Gl.GL_LIGHTING);
@@ -370,7 +370,7 @@ namespace lab_3
                                 n3 /= (n5 + 0.01);
 
                                 // передаем информацию о нормали 
-                                Gl.glNormal3d(-n1, -n2, -n3);
+                                Gl.glNormal3d(n1, n2, n3);
 
                                 // передаем 4 вершины для отрисовки полигона 
                                 Gl.glVertex3d(x1, y1, z1);
