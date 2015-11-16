@@ -36,6 +36,7 @@
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.RenderTimer = new System.Windows.Forms.Timer(this.components);
             this.SpeedBar = new System.Windows.Forms.TrackBar();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SpeedBar)).BeginInit();
             this.SuspendLayout();
@@ -97,13 +98,23 @@
             this.SpeedBar.Name = "SpeedBar";
             this.SpeedBar.Size = new System.Drawing.Size(104, 45);
             this.SpeedBar.TabIndex = 3;
-            this.SpeedBar.Value = 30;
+            this.SpeedBar.Value = 3;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(561, 52);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(615, 424);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.SpeedBar);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.comboBox1);
@@ -126,6 +137,7 @@
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.Timer RenderTimer;
         private System.Windows.Forms.TrackBar SpeedBar;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

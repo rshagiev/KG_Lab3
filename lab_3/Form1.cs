@@ -139,8 +139,20 @@ namespace lab_3
 
         private void Mouse_F(object sender, EventArgs e)
         {
-            update = false;
+            if (checkBox1.Checked)
+                update = false;
+            else update = true;
            // MessageBox.Show("I am Outside");
+        }
+        private void Mouse(object sender, MouseEventArgs e)
+        {
+            Mcoord_X = e.X;
+            Mcoord_Y = e.Y;
+            if (Mcoord_X < AnT.Width && Mcoord_Y < AnT.Height)
+            {
+             //   MessageBox.Show("I am Inside");
+                update = true;
+            }
         }
 
         private void MouseClickAnT(object sender, MouseEventArgs e)
@@ -158,22 +170,13 @@ namespace lab_3
 
         }
 
-        private void Mouse(object sender, MouseEventArgs e)
-        {
-            Mcoord_X = e.X;
-            Mcoord_Y = e.Y;
-            if (Mcoord_X < AnT.Width && Mcoord_Y < AnT.Height)
-            {
-             //   MessageBox.Show("I am Inside");
-                update = true;
-            }
-        }
         private void Draw()
         {
             // два параметра, которые мы будем использовать для непрерывного вращения сцены вокруг 2 координатных осей 
             float speed = SpeedBar.Value;
             if (click % 2 == 0)
             {
+
                 if (update == true)
                 {
                     rot_1=rot_1+speed;
