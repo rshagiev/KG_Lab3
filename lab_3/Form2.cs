@@ -35,7 +35,7 @@ namespace lab_3
              }
             catch (FormatException R)
             {
-                MessageBox.Show("This is a radius! Use onlu numbers!!!");
+                MessageBox.Show("Use only natural numbers!!!");
             }
             catch (OverflowException R)
             {
