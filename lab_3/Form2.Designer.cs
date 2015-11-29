@@ -40,6 +40,7 @@
             this.rad_imp.Name = "rad_imp";
             this.rad_imp.Size = new System.Drawing.Size(100, 20);
             this.rad_imp.TabIndex = 0;
+            this.rad_imp.TextChanged += new System.EventHandler(this.rad_imp_TextChanged);
             // 
             // label1
             // 

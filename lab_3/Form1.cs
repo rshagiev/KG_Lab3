@@ -19,7 +19,7 @@ namespace lab_3
         private float rot_1, rot_2;
         bool update = false;
         int click = 0;
-        private string radius;
+        private int R;
         private double[,] GeometricArray = new double[64, 3];
         private double[,,] ResaultGeometric = new double[64, 64, 3];
 
@@ -31,11 +31,11 @@ namespace lab_3
         
 
 
-        public Form1(string text)
+        public Form1(int rad)
         {
             InitializeComponent();
             AnT.InitializeContexts();
-            this.radius = text;
+            this.R = rad;
             
         }
        
@@ -64,7 +64,6 @@ namespace lab_3
             Gl.glEnable(Gl.GL_LIGHT0);
 
             count_elements = 21;
-            int R = Convert.ToInt32(radius);
             for (int i = 0; i < count_elements; i++)
             {
                 GeometricArray[i, 0] = R * Math.Sin(i * 9 * Math.PI / 180);

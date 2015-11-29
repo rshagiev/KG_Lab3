@@ -19,8 +19,29 @@ namespace lab_3
 
         private void Ok_but_Click(object sender, EventArgs e)
         {
-            Form1 pr = new Form1(rad_imp.Text);
-            pr.ShowDialog();
+            try
+            {
+                int R = Convert.ToInt32(rad_imp.Text);
+            
+                 if (R < 0)
+                {
+                   MessageBox.Show("Invalid input. Please use only numbest grater than 0");
+                }
+                  else
+                    {
+                         Form1 pr = new Form1(R);
+                         pr.ShowDialog();
+                     }
+             }
+            catch (FormatException R)
+            {
+                MessageBox.Show("This is a radius! Use onlu numbers!!!");
+            }
+            catch (OverflowException R)
+            {
+                MessageBox.Show("The number is too big. Try again.");
+            }
+
         }
 
         private void Cancel_but_Click(object sender, EventArgs e)
@@ -34,6 +55,11 @@ namespace lab_3
         }
 
         private void Begining_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rad_imp_TextChanged(object sender, EventArgs e)
         {
 
         }
