@@ -67,9 +67,9 @@ namespace lab_3
             int R = Convert.ToInt32(radius);
             for (int i = 0; i < count_elements; i++)
             {
-                GeometricArray[i, 0] =0;
+                GeometricArray[i, 0] = R * Math.Sin(i * 9 * Math.PI / 180);
                 GeometricArray[i, 1] = 0;
-                GeometricArray[i, 2] = R * Math.Cos(i * Math.PI / 20);
+                GeometricArray[i, 2] = R * Math.Cos(i * 9 * Math.PI / 180);
             }
             int light = Gl.GL_LIGHT0;
             Gl.glEnable(Gl.GL_LIGHTING);
