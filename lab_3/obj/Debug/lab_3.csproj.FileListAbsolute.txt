@@ -35,7 +35,7 @@
 \\psf\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.csproj.GenerateResource.Cache
 \\psf\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.exe
 \\psf\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.pdb
-\\psf\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.Begining.resources
+\\psf\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.Beginning.resources
 \\Mac\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\bin\Debug\lab_3.exe.config
 \\Mac\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.exe
 \\Mac\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.pdb
@@ -57,6 +57,6 @@
 \\Mac\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\bin\Debug\Tao.Sdl.xml
 \\Mac\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.csprojResolveAssemblyReference.cache
 \\Mac\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.Form1.resources
-\\Mac\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.Begining.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.Beginning.resources
 \\Mac\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.Properties.Resources.resources
 \\Mac\Home\Documents\Visual Studio 2015\Projects\lab_3\lab_3\obj\Debug\lab_3.csproj.GenerateResource.Cache

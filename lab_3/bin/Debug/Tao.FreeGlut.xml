@@ -6295,7 +6295,7 @@
                     also specify a window system dependent display mode.
                 </para>
                 <para>
-                    The string is a list of zero or more capability descriptions seperated by
+                    The string is a list of zero or more capability descriptions separated by
                     spaces and tabs.  Each capability description is a capability name that is
                     followed by a comparator and a numeric value.  (Unlike the display mode
                     string specified using <see cref="M:Tao.FreeGlut.Glut.glutInitDisplayString(System.String)"/>, the comparator

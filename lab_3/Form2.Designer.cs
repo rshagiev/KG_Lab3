@@ -1,6 +1,6 @@
 ﻿namespace lab_3
 {
-    partial class Begining
+    partial class Beginning
     {
         /// <summary>
         /// Required designer variable.
@@ -71,7 +71,7 @@
             this.Cancel_but.UseVisualStyleBackColor = true;
             this.Cancel_but.Click += new System.EventHandler(this.Cancel_but_Click);
             // 
-            // Begining
+            // Beginning
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -81,7 +81,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rad_imp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "Begining";
+            this.Name = "Beginning";
             this.Text = "Hi!";
             this.Load += new System.EventHandler(this.Begining_Load);
             this.ResumeLayout(false);

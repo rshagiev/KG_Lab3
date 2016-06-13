@@ -2687,7 +2687,7 @@
                 Gets the first program in a context.
             </summary>
             <param name="context">
-                The context to retreive first program from.
+                The context to retrieve first program from.
             </param>
             <returns>
                 The program or null if no programs available.
@@ -2709,7 +2709,7 @@
                 Gets a programs parent context.
             </summary>
             <param name="prog">
-                Program to retreive context from.
+                Program to retrieve context from.
             </param>
             <returns>
                 The context a given program belongs to.
@@ -4155,21 +4155,21 @@
             <summary>
             Gets a parameter's resource.
             </summary>
-            <param name="param">Parameter to retreive resource from</param>
+            <param name="param">Parameter to retrieve resource from</param>
             <returns>Resource of a given parameter.</returns>
         </member>
         <member name="M:Tao.Cg.Cg.cgGetParameterBaseResource(System.IntPtr)">
             <summary>
             Gets a parameter's base resource.
             </summary>
-            <param name="param">Parameter to retreive base resource from</param>
+            <param name="param">Parameter to retrieve base resource from</param>
             <returns>Base resource of a given parameter.</returns>
         </member>
         <member name="M:Tao.Cg.Cg.cgGetFirstParameter(System.IntPtr,System.Int32)">
             <summary>
             Gets the first parameter in specified program.
             </summary>
-            <param name="prog">The program to retreive the first program from.</param>
+            <param name="prog">The program to retrieve the first program from.</param>
             <param name="name_space">Namespace of the parameter to iterate through.</param>
             <returns>First parameter in specified program.</returns>
         </member>
@@ -4214,7 +4214,7 @@
             <summary>
             Gets program that specified parameter belongs to.
             </summary>
-            <param name="param">Parameter to retreive it's parent program.</param>
+            <param name="param">Parameter to retrieve it's parent program.</param>
             <returns>A program given parameter belongs to.</returns>
         </member>
         <member name="M:Tao.Cg.Cg.cgIsParameter(System.IntPtr)">
@@ -4235,7 +4235,7 @@
             <summary>
             Gets a program parameter's values. 
             </summary>
-            <param name="param">Parameter to retreive parameter's values from.</param>
+            <param name="param">Parameter to retrieve parameter's values from.</param>
             <param name="value_type">CG_CONSTANT or CG?DEFAULT</param>
             <param name="nvalues">Array of integers indicating the number of values in parameters.</param>
             <returns>Array of double values.</returns>
@@ -4244,7 +4244,7 @@
             <summary>
             Gets a program parameter's values. 
             </summary>
-            <param name="param">Parameter to retreive parameter's values from.</param>
+            <param name="param">Parameter to retrieve parameter's values from.</param>
             <param name="value_type">CG_CONSTANT or CG?DEFAULT</param>
             <param name="nvalues">Array of integers indicating the number of values in parameters.</param>
             <returns>Array of double values.</returns>
@@ -4253,7 +4253,7 @@
             <summary>
             Gets a program parameter's values. 
             </summary>
-            <param name="param">Parameter to retreive parameter's values from.</param>
+            <param name="param">Parameter to retrieve parameter's values from.</param>
             <param name="value_type">CG_CONSTANT or CG?DEFAULT</param>
             <param name="nvalues">Array of integers indicating the number of values in parameters.</param>
             <returns>Array of double values.</returns>
@@ -4262,7 +4262,7 @@
             <summary>
             Returns an integer that represents the position of a parameter when it was declared within the Cg program.
             </summary>
-            <param name="param">Parameter to retreive it's ordinal number.</param>
+            <param name="param">Parameter to retrieve it's ordinal number.</param>
             <returns>Parameter's ordinal number.</returns>
         </member>
         <member name="M:Tao.Cg.Cg.cgGetResourceString(System.Int32)">

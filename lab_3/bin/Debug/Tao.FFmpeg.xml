@@ -5098,12 +5098,12 @@
         </member>
         <member name="F:Tao.FFmpeg.FFmpeg.AVCodecContext.thread_count">
             Thread count.
-            is used to decide how many independant tasks should be passed to execute()
+            is used to decide how many independent tasks should be passed to execute()
             - encoding: set by user
             - decoding: set by user
         </member>
         <member name="F:Tao.FFmpeg.FFmpeg.AVCodecContext.execute">
-            the codec may call this to execute several independant things. it will return only after
+            the codec may call this to execute several independent things. it will return only after
             finishing all tasks, the user may replace this with some multithreaded implementation, the
             default implementation will execute the parts serially
             @param count the number of things to execute
