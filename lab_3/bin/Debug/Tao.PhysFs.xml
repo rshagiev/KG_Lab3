@@ -359,7 +359,7 @@
             <summary>
             Determine if a file in the search path is really a directory.
             </summary>
-            <remarks>Determine if the first occurence of (fname) in the search path is really a directory entry.
+            <remarks>Determine if the first occurrence of (fname) in the search path is really a directory entry.
             <p>Note that entries that are symlinks are ignored if PHYSFS_permitSymbolicLinks(1) hasn't been called, so you might end up further down in the search path than expected.</p></remarks>
             <param name="filename">filename in platform-independent notation.</param>
             <returns>non-zero if filename exists and is a directory. zero otherwise.</returns>
@@ -370,7 +370,7 @@
             <summary>
             Determine if a file in the search path is really a symbolic link.
             </summary>
-            <remarks>Determine if the first occurence of (fname) in the search path is really a symbolic link.
+            <remarks>Determine if the first occurrence of (fname) in the search path is really a symbolic link.
             <p>Note that entries that are symlinks are ignored if PHYSFS_permitSymbolicLinks(1) hasn't been called, and as such, this function will always return 0 in that case.</p></remarks>
             <param name="filename">filename in platform-independent notation.</param>
             <returns>non-zero if filename exists and is a symlink. zero otherwise.</returns>

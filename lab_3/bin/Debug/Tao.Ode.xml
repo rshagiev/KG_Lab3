@@ -5607,7 +5607,7 @@
             
              From ODE mailing list:
              dVector3 is a dReal[4] to allow for future SIMD extension (the dMatrix3 is
-             similarily defined).
+             similarly defined).
             
             	However, there may already be a speed difference by defining it as a
             	dReal[4]; the reason is that properly alligned memory data can be accessed

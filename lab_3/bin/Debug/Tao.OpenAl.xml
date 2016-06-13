@@ -3960,7 +3960,7 @@
                 Gets the X-RAM mode for the specified buffer.
             </summary>
             <param name="buffer">
-                Buffer to retreive the property for.
+                Buffer to retrieve the property for.
             </param>
             <param name="reserved">
             Not used yet.
@@ -3983,7 +3983,7 @@
                 Gets the X-RAM mode for the specified buffer.
             </summary>
             <param name="buffer">
-                Buffer to retreive the property for.
+                Buffer to retrieve the property for.
             </param>
             <param name="reserved">
             Not used yet.
@@ -4006,7 +4006,7 @@
                 Gets the X-RAM mode for the specified buffer.
             </summary>
             <param name="buffer">
-                Buffer to retreive the property for.
+                Buffer to retrieve the property for.
             </param>
             <param name="reserved">
             Not used yet.

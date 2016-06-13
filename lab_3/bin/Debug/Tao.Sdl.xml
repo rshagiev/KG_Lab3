@@ -20179,7 +20179,7 @@
                event information will be placed in our test_event structure, 
                but we also know that the type of event will be placed in the 
                type member of test_event. So to handle each event type 
-               seperately we use a switch statement.</p>
+               separately we use a switch statement.</p>
              <p><code> switch(test_event.type) { </code></p>
              <p>We need to know what kind of events we're looking for and the
               event type's of those events. So lets assume we want to detect 

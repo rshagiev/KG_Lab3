@@ -1229,7 +1229,7 @@
         </member>
         <member name="F:Tao.DevIl.Il.IL_NO_ERROR">
             <summary>
-            No detectable error has occured.
+            No detectable error has occurred.
             </summary>
         </member>
         <member name="F:Tao.DevIl.Il.IL_INVALID_ENUM">
